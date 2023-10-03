@@ -1,0 +1,118 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.head {
+  height: 100%;
+  width: 100%;
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(12, 231, 243);
+}
+
+#navbar_items {
+  list-style: none;
+  display: flex;
+}
+
+.items_in_navbar {
+  padding: 10px;
+}
+
+.hero {
+  width: 100%;
+  padding: 40px;
+  border-bottom: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main_ansok {
+  background-color: rgb(115, 208, 219);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.ansok_btn {
+  padding: 10px 15px;
+}
+
+.hero2 {
+  width: 100%;
+  padding: 40px;
+  border-bottom: solid;
+  display: flex;
+  background-color: rgb(183, 246, 247);
+}
+
+.hero2Text {
+  padding-left: 30px;
+}
+
+.bild {
+  width: 50%;
+  height: auto;
+  min-width: 300px;
+  margin-left: auto;
+  border-radius: 5%;
+}
+.bgImage {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(247, 248, 250);
+  background-image: url(bild\ 1.jpg);
+  background-size: cover;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.main_text {
+  text-align: center;
+  border-radius: 5%;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(236, 240, 240);
+}
+.main2 {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  text-align: baseline;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 30px;
+  width: 30%;
+}
+
+.main3 {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  text-align: baseline;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 30px;
+  width: 30%;
+}
+.main4 {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  text-align: baseline;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 30px;
+}
